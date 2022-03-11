@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            text-align: center;
+            background: url("https://i.pinimg.com/564x/6d/fb/1e/6dfb1e2edaf98514b172af0f09a37a95.jpg");
+        }
+    </style>
+</head>
+<body>
+<h1>DO YOU LOVE ME???</h1>
+<button onclick="a()">YES</button>
+<button style="position: absolute" onmouseover="dichuyen()" id="ha">NO</button>
+<script>
+    let ha = document.getElementById("ha");
+    let b = document.getElementById("a")
+    function dichuyen(){
+        ha.style.left = Math.random() * 300 + "px";
+        ha.style.top = Math.random() * 300 + "px";
+    }
+    function a(){
+        alert("Ấn được NO cho 100 nghìn. :)))) Me too");
+    }
+</script>
+</body>
+</html>
